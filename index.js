@@ -19,7 +19,7 @@ import inquirer from "inquirer";
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 //  ab hamary ps 1-10 nmbrs generate hongy
 // console.log(randomNumber)
-console.log("Welcome to Number Guessing Game");
+console.log("Hey, Welcome to Number Guessing Game !!");
 const answers = await inquirer.prompt([
     {
         name: "userGuessNumber",
